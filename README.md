@@ -1,4 +1,4 @@
-# Torq: An app for an electric longboard
+# Torq: an app for an electric longboard
 Torq is an iPhone app I built for an electric longboard I was making, in order to track a variety of metrics associated with it. Torq is able to show you your current speed, total distance traveled, speed mode, and current battery level. If an external speaker is attached, Torq also allows you to control a buzzing sound to alert pedestrians/riders around you. The app uses biometric authentication (face ID) in order to ensure only authorized people can look at your longboard’s metrics, and it supports dark mode for aesthetic purposes.
 
 ## How it works
