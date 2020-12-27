@@ -15,3 +15,15 @@ The message contains the electric longboard’s speed, battery level, connection
 ```Buzzer```
 
 The single piece of information in this message is a numerical value that represents whether a buzzing sound should be on or off.  Because it is only one piece of information, no dollar sign characters are needed.  
+
+## How to implement
+In order to use this repository on your own DIY electric longboard project, you would need to make sure you are using a VESC for your electronic speed controller, have access to an arduino with two serial ports (arduino micro is recommended), and also have access to a BLE sensor that uses RX/TX pins to communicate ([this](https://www.amazon.com/DSD-TECH-Bluetooth-iBeacon-Arduino/dp/B06WGZB2N4/ref=sr_1_1_sspa?dchild=1&keywords=dsd+tech+hm-10&qid=1609039395&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExQVRTVzdHWkhSQjFRJmVuY3J5cHRlZElkPUEwMjI3MjA3TzhPOUpMREtKRTVPJmVuY3J5cHRlZEFkSWQ9QTA2OTcyODkzMzdSV0FSMkhKRkdLJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) sensor is recommended). Below are instructions on how to run the arduino sketch and xcode project after downloading this repository.
+
+### Arduino
+Before running any software, **you must first wire the arduino** as shown here. After wiring you may download SolidGeek’s library, which is the only dependency needed for the arduino file (ProjectTORQ.ino). After downloading [SolidGeek's library](https://github.com/SolidGeek/VescUart) and importing it to Arduino’s IDE, all that must be done is to upload your sketch to your arduino. 
+
+### Xcode
+The xcode project (the Torque folder) has no dependencies, so all that must be done is to build and run the application on a connected iPhone (the simulator will not be able to connect to bluetooth). 
+
+
+After opening Torq on your iPhone, turn on your electric longboard and enjoy *all* of Torq’s features!
