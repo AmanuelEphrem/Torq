@@ -29,4 +29,4 @@ The xcode project (the Torque folder) has no dependencies, so all that must be d
 After opening Torq on your iPhone, turn on your electric longboard and enjoy *all* of Torq’s features!
 
 ## App Screenshots
-Screenshots of all the screens can be found in this folder. The design file for Torq (in Adobe XD) can also be found here.
+Screenshots of all the screens can be found in [this folder](/AppScreenshots). The design file for Torq (in Adobe XD) can also be found [here](TorqDesign.xd).
