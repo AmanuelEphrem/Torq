@@ -26,7 +26,7 @@ Before running any software, **you must first wire the arduino** as shown [here]
 The xcode project (the Torque folder) has no dependencies, so all that must be done is to build and run the application on a connected iPhone (the simulator will not be able to connect to bluetooth). 
 
 
-\*After opening Torq on your iPhone, turn on your electric longboard and enjoy *all* of Torq’s features!
+*After opening Torq on your iPhone, turn on your electric longboard and enjoy all of Torq’s features!*
 
 ## App Screenshots
 Screenshots of all the screens can be found in [this folder](/AppScreenshots). The design file for Torq (in Adobe XD) can also be found [here](TorqDesign.xd).
