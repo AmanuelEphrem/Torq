@@ -15,6 +15,8 @@ class ControlsViewController: UIViewController {
     @IBOutlet weak var ratingLbl: UILabel!
     @IBOutlet weak var aproxSpeedLbl: UILabel!
     @IBOutlet weak var buzzBuzzLbl: UILabel!
+    @IBOutlet weak var slider: UISlider!
+    
     //light color
     let lightColor1 = UIColor(red: 85/255, green: 85/255, blue: 85/255, alpha: 1)
     //dark color
@@ -38,6 +40,8 @@ class ControlsViewController: UIViewController {
     
     //updates ui
     @objc func updateUI(){
+        //forces slider in one location
+        slider.value = 14
         //determines light or dark mode
         if(ELMetrics.darkMode.value == "no"){
             view.backgroundColor = UIColor(red: 240/255, green: 237/255, blue: 237/255, alpha: 1)
